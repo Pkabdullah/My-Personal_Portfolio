@@ -24,7 +24,7 @@ const Footer = () => {
     setLoading(true);
 
     try {
-      const res = await fetch("http://localhost:3000/api/contact", {
+      const res = await fetch("/api/contact", {
         method: "POST",
         body: JSON.stringify({ name, email, message, subject }),
         headers: {
