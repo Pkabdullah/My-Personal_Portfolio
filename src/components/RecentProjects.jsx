@@ -9,6 +9,10 @@ import Image from "next/image";
 
 
 const RecentProjects = () => {
+
+   const handleVisit = (link) => {
+       window.open(link,"_blank")
+      };
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">
