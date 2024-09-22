@@ -104,7 +104,7 @@ export const projects = [
       "/stripe.png",
       "/tail.svg",
     ],
-    link: "https://style-haven-full-stack.vercel.app/",
+    link: "https://style-haven-full-stack-kqi3q2jmf.vercel.app",
   },
 ];
 
